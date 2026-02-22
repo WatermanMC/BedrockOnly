@@ -1,0 +1,17 @@
+name: BedrockOnly
+version: '1.0.0'
+main: com.github.WatermanMC.BedrockOnly.BedrockOnly
+api-version: '1.21'
+authors: [WatermanMC]
+description: Only allows bedrock players on your server!
+
+commands:
+  bedrockonly:
+    description: BedrockOnly command
+    usage: /bedrockonly <reload/info>
+    permission: bedrockonly.admin
+
+permissions:
+  bedrockonly.admin:
+    description: BedrockOnly admin permission
+    default: op

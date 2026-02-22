@@ -1,0 +1,6 @@
+# Only allows MiniMessage!
+# MiniMessage formatter: https://webui.advntr.dev/
+
+nopermission-command: "<red>You don't have permission to execute this command."
+reloaded: "<green>Plugin reloaded!"
+kick-message: "<red>Can't connect to this server."
