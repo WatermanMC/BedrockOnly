@@ -5,7 +5,7 @@ import com.github.WatermanMC.BedrockOnly.managers.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class BedrockOnly extends JavaPlugin {
-    private final ConfigManager configManager;
+    private ConfigManager configManager;
 
     public BedrockOnly(ConfigManager configManager) {
         this.configManager = configManager;
@@ -18,8 +18,8 @@ public final class BedrockOnly extends JavaPlugin {
             getLogger().severe("Please download it at: https://geysermc.org/download?project=floodgate");
 
             getServer().getPluginManager().disablePlugin(this);
-            return;
         } else {
+            this.configManager = new ConfigManager(this);
             new BedrockOnlyCommand(this, configManager);
             getServer().getPluginManager().registerEvents(new PlayerJoinListener(this, configManager), this);
             getLogger().info("BedrockOnly v" + getPluginMeta().getVersion() + " enabled!");
