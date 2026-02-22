@@ -7,10 +7,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class BedrockOnly extends JavaPlugin {
     private ConfigManager configManager;
 
-    public BedrockOnly(ConfigManager configManager) {
-        this.configManager = configManager;
-    }
-
     @Override
     public void onEnable() {
         if (getServer().getPluginManager().getPlugin("floodgate") == null) {
