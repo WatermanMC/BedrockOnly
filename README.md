@@ -4,6 +4,11 @@
 
 ---
 
+# Dependency
+This plugin requires GeyserMC and floodgate to work. [Click to Download](https://geysermc.org/download)
+
+---
+
 ## Key Features & Why You Should Download It
 
 * **Bedrock-Only Functionality:** Allow bedrock players only or exempted java players in your server, like in bedrock servers like CubeCraft (not sponsored).
