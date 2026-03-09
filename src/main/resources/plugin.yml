@@ -1,9 +1,10 @@
 name: BedrockOnly
-version: '1.0.0'
+version: '1.0.1'
 main: com.github.WatermanMC.BedrockOnly.BedrockOnly
 api-version: '1.21'
 authors: [WatermanMC]
 description: Only allows bedrock players on your server!
+softdepend: [ Geyser-Spigot, floodgate ]
 
 commands:
   bedrockonly:
