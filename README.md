@@ -70,9 +70,3 @@ kick-message: "<red>Can't connect to this server."
 
 * **GitHub Repository:** [https://github.com/WatermanMC/BedrockOnly](https://github.com/WatermanMC/BedrockOnly)
 * **Discord Support:** [https://discord.gg/Scgqfm5EU4](https://discord.gg/Scgqfm5EU4)
-
----
-
-This plugin is also owned by **VOXELWARE STUDIOS**.
-
----
